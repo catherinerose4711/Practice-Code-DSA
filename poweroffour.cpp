@@ -11,6 +11,6 @@ bool isPowerOffour(int n) {
 
 int main() {
     int n = 16;
-    cout << (isPowerOfTwo(n) ? "True" : "False") << endl;
+    cout << (isPowerOffour(n) ? "True" : "False") << endl;
     return 0;
 }
