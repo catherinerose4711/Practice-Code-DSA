@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-bool isPowerOfTwo(int n) {
+bool isPowerOfThree(int n) {
     if (n <= 0) return false;
     while (n % 3 == 0) {
         n /= 3;
@@ -11,6 +11,6 @@ bool isPowerOfTwo(int n) {
 
 int main() {
     int n = 21;
-    cout << (isPowerOfTwo(n) ? "True" : "False") << endl;
+    cout << (isPowerOfThree(n) ? "True" : "False") << endl;
     return 0;
 }
