@@ -1,3 +1,7 @@
+#include <iostream>
+
+using namespace std;
+
 class Solution {
 public:
     int mySqrt(int x) {
@@ -21,3 +25,11 @@ public:
         return ans; // Nearest integer square root
     }
 };
+
+int main() {
+    Solution sol;
+    int x = 8;
+    cout << "Square root of " << x << " is: " << sol.mySqrt(x) << endl;
+    return 0;
+}
+
