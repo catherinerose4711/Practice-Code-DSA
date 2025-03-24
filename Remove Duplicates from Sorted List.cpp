@@ -8,9 +8,9 @@ public:
         while(curr!=NULL && curr->next!=NULL){
             
         if(curr->val==curr->next->val){
-            ListNode* nextNode= curr->next->next;
-            delete curr->next;
-            curr->next = nextNode;
+            ListNode* temp= curr->next;
+            curr->next=cur->next->next;
+            delete temp; 
         }
         else{
             curr=curr->next;
